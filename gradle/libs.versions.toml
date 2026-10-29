@@ -46,7 +46,7 @@ detekt = "1.23.6"
 composeRules = "0.4.22"
 leakcanary = "2.14"
 konsist = "0.17.3"
-splashscreen = "1.0.1"
+splashscreen = "1.2.0"
 
 
 [libraries]
