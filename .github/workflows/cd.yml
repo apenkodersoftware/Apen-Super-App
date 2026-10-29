@@ -41,7 +41,7 @@ jobs:
         run: ./gradlew assembleRelease
 
       - name: Upload to Firebase App Distribution
-        uses: w9jds/firebase-action@v2.6.0
+        uses: w9jds/firebase-action@v15.34.1
         with:
           args: appdistribution:distribute app/build/outputs/apk/release/app-release.apk --app ${{ secrets.FIREBASE_APP_ID }} --groups "testers"
         env:
