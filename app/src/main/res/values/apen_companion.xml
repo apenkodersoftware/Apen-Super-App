@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apen_loans">Loans &amp; plans · Inuka</string>
+    <string name="apen_review_notice">Apen review: your business records and personal plans. This proposal is not connected to Inuka accounts. No approval, lending or payment is performed here.</string>
+    <string name="apen_catalogue_date">Public product information checked: %1$s</string>
+    <string name="apen_contact">Contact Inuka through the official website</string>
+    <string name="apen_my_plans">My payment plans</string>
+    <string name="apen_plan_notice">Your own due-date notes, separate from customer Deni. Included in new encrypted backups. R1 backups did not include these notes. These are not official balances, receipts or notifications. Corrections and removals retain original values in local change history. Older backups and files you already shared are not erased.</string>
+    <string name="apen_storage_problem">Unable to read or save your plans. Your records have not been reset. Reopen this screen and try again.</string>
+    <string name="apen_empty_plans">No personal plans saved. Choose a product below to add a due-date note.</string>
+    <string name="apen_customer_entered">Entered by you · not Inuka confirmed</string>
+    <string name="apen_remove_plan">Remove my note</string>
+    <string name="apen_products">Explore all Inuka products</string>
+    <string name="apen_product_notice">Published ranges and tenors are information only. Confirm rates, fees, eligibility and your actual schedule with Inuka. Product names and terms below follow the public catalogue.</string>
+    <string name="apen_open_catalogue">Open the official product catalogue</string>
+    <string name="apen_add_plan">Add my due-date note</string>
+    <string name="apen_remove_notice">This removes only your personal note. It does not cancel, repay or change an Inuka loan.</string>
+    <string name="apen_cancel">Cancel</string>
+    <string name="apen_save">Save my note</string>
+    <string name="apen_plan_entry_note">Use the amount and date from your actual schedule. Saving this note does not apply for a loan or record a payment.</string>
+    <string name="apen_next_amount">Next scheduled payment · KES</string>
+    <string name="apen_due_date">Due date · YYYY-MM-DD</string>
+    <string name="apen_invalid_plan">Enter a positive amount with at most 2 decimal places and a valid date, for example 2026-11-02.</string>
+    <string name="apen_no_browser">No browser is available. Open this address on another device: %1$s</string>
+</resources>

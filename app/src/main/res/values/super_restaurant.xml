@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="super_choose_photo">Choose a photo (optional)</string>
+    <string name="super_remove_photo">Remove photo</string>
+    <string name="super_photo_error">Choose a readable image. A small local copy is saved with your records.</string>
+    <string name="super_archive_menu">Archived: hide from selling</string>
+    <string name="super_active_menu">Show active menu</string>
+    <string name="super_archived_menu">Show archived menu</string>
+</resources>
+

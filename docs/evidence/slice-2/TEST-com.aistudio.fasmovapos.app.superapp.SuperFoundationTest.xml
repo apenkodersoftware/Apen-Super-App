@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aistudio.fasmovapos.app.superapp.SuperFoundationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-29T04:48:06.298Z" hostname="APENKODERSOFTWA" time="2.226">
+  <properties/>
+  <testcase name="migrationKeepsRowsAndUnknownEntryTimes" classname="com.aistudio.fasmovapos.app.superapp.SuperFoundationTest" time="1.815"/>
+  <testcase name="invalidCrossBusinessItemAndOverpaymentRollbackWithoutPartialRows" classname="com.aistudio.fasmovapos.app.superapp.SuperFoundationTest" time="0.39"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

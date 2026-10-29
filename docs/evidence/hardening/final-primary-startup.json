@@ -1,0 +1,38 @@
+{
+  "package": "com.apenkoder.apen.review",
+  "device": "emulator-5554",
+  "trials": [
+    {
+      "trial": 1,
+      "host_elapsed_ms": 4202,
+      "android_am_start": {
+        "ThisTime": 2915,
+        "TotalTime": 14543,
+        "WaitTime": 2966
+      }
+    },
+    {
+      "trial": 2,
+      "host_elapsed_ms": 5057,
+      "android_am_start": {
+        "ThisTime": 2834,
+        "TotalTime": 2834,
+        "WaitTime": 2876
+      }
+    },
+    {
+      "trial": 3,
+      "host_elapsed_ms": 4161,
+      "android_am_start": {
+        "ThisTime": 2958,
+        "TotalTime": 2958,
+        "WaitTime": 2981
+      }
+    }
+  ],
+  "measurement": "force-stop then am start -W; Android activity launch timing, not a measured business-data-ready time",
+  "physical_phone_test": false,
+  "geometry": "Physical size: 720x1600",
+  "density": "Physical density: 240",
+  "font_scale": "1.0"
+}

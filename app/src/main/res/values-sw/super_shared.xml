@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="super_period_from">Kuanzia</string>
+  <string name="super_period_through">Hadi</string>
+  <string name="super_custom_dates">Chagua tarehe</string>
+  <string name="super_per_property">Kwa kila jengo</string>
+  <string name="super_arrears_age">Kodi isiyolipwa kwa umri</string>
+  <string name="super_owed_as_now">Deni sasa, kumbukumbu zote zilizohifadhiwa</string>
+  <string name="super_owed_as_now_help">Hili ni deni la kumbukumbu zote zilizohifadhiwa sasa, pamoja na zilizo nje ya tarehe ulizochagua. Si salio la Inuka.</string>
+  <string name="super_average_recorded_day">Wastani kwa siku zenye maziwa yaliyorekodiwa</string>
+  <string name="super_average_day_help">Siku zisizo na kumbukumbu za maziwa hazijulikani na hazijumuishwi katika wastani huu.</string>
+  <string name="super_rental_difference_help">Kodi iliyokusanywa ukitoa matumizi yaliyorekodiwa. Amana na kodi isiyolipwa havijumuishwi; si faida wala salio la fedha.</string>
+  <string name="super_coverage_help">Hii huonyesha siku zilizorekodiwa, si uthibitisho kwamba kila muamala uliandikwa. Siku zisizo na kumbukumbu hazijulikani; si sifuri.</string>
+  <string name="super_unknown_entry_times">Maingizo yasiyojulikana muda wa kurekodiwa</string>
+  <string name="super_equal_period">Ikilinganishwa na kipindi kilichokamilika chenye urefu sawa</string>
+  <string name="super_sales_change">Mabadiliko ya mauzo au kiasi kilichopatikana kilichorekodiwa</string>
+  <string name="super_months">miezi</string>
+  <string name="super_late">Imechelewa</string>
+  <string name="super_due">Inayodaiwa / inayokuja</string>
+  <string name="super_history_help">Thamani za awali na muda wa kuingiza huhifadhiwa. Kila marekebisho au kubatilisha kunahitaji sababu; kubatilisha hakufuti kumbukumbu.</string>
+  <string name="super_record_id">Rejea ya kumbukumbu</string>
+  <string name="super_recorded_on">Iliingizwa</string>
+  <string name="super_stock_used_sale">Bidhaa zilizotumika katika mauzo yaliyorekodiwa</string>
+  <string name="super_initial_details">Maelezo ya mwanzo</string>
+  <string name="super_voided">Imebatilishwa</string>
+  <string name="super_linked_cost_help">Matumizi haya yalitokana na makato ya mnunuzi. Batilisha malipo yanayohusika ili kuyaondoa.</string>
+  <string name="super_void_sale_help">Risiti hii ni ya mauzo yaliyolipwa yote. Batilisha mauzo ili kubatilisha kumbukumbu zote pamoja.</string>
+  <string name="super_void_help">Kubatilisha hurekebisha jumla huku kumbukumbu ya awali na sababu vikihifadhiwa. Malipo yanayohusiana yanaweza kuhitaji kurekebishwa kwanza.</string>
+  <string name="super_unpaid_through_month">Isiyolipwa hadi mwezi uliochaguliwa</string>
+  <string name="super_rent_home_help">Iliyokusanywa kati ya inayotarajiwa ni malipo yaliyotumika kwa mwezi uliochaguliwa. Muhtasari huonyesha fedha zilizopokelewa katika tarehe ulizochagua.</string>
+  <string name="super_period_future">Kipindi hiki kina tarehe baada ya leo. Takwimu ni za maingizo yaliyohifadhiwa, si utabiri.</string>
+  <string name="super_milk_correction_help">Rekebisha lita hapa. Kubadili mnunuzi, tarehe au bei, batilisha maziwa hayo katika Historia na uingize kumbukumbu mpya.</string>
+</resources>

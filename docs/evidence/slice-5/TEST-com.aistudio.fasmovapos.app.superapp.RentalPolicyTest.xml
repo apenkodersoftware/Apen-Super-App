@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aistudio.fasmovapos.app.superapp.RentalPolicyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-29T06:44:39.370Z" hostname="APENKODERSOFTWA" time="46.259">
+  <properties/>
+  <testcase name="missedMonthsMidMonthMoveoutAndDepositAreDistinct" classname="com.aistudio.fasmovapos.app.superapp.RentalPolicyTest" time="43.475"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

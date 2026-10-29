@@ -1,0 +1,63 @@
+<resources>
+  <string name="lite_available">Iliyopo: %1$s</string>
+  <string name="lite_by_quantity">Kwa kiasi</string>
+  <string name="lite_by_money">Kwa pesa</string>
+  <string name="lite_budget">Kiasi cha pesa (KES)</string>
+  <string name="lite_portion_price">Bei iliyohifadhiwa ya kipimo hiki imetumika.</string>
+  <string name="lite_budget_note">Kipimo ni gramu au mililita kamili, kikizungushwa chini. Bei iliyoonyeshwa ni ya kipimo hicho na inaweza kuwa chini kidogo ya pesa ulizoingiza.</string>
+  <string name="lite_quantity_error">Weka kiasi chanya kisichozidi bidhaa zilizopo. Uzito na ujazo hutumia gramu na mililita kamili.</string>
+  <string name="lite_add_sale">Ongeza kwenye mauzo</string>
+  <string name="lite_part_payment">Lipa sehemu / salio liwe deni</string>
+  <string name="lite_received_by">Njia ya malipo ya kwanza</string>
+  <string name="lite_received_now">Kiasi cha malipo ya kwanza (KES)</string>
+  <string name="lite_balance">Kiasi kilichobaki: %1$s</string>
+  <string name="lite_rate_hint">Bei, gharama na kiasi cha bidhaa hapa chini ni kwa %1$s. Kwa Kg, 0.25 ni gramu 250; kwa Ltr, 0.25 ni ml 250.</string>
+  <string name="lite_quarter_price">Bei ya g / ml 250 (0 = kwa uwiano)</string>
+  <string name="lite_half_price">Bei ya g / ml 500 (0 = kwa uwiano)</string>
+  <string name="lite_portion_hint">Bei hizi za hiari hutumika kwa vitufe vya vipimo hivyo. Kiasi kingine hutumia bei ya kawaida kwa kilo/lita.</string>
+  <string name="lite_report">Muhtasari wa biashara</string>
+  <string name="lite_debts">Deni ninalodai wateja</string>
+  <string name="lite_daily">Kila siku</string>
+  <string name="lite_weekly">Kila wiki</string>
+  <string name="lite_monthly">Kila mwezi</string>
+  <string name="lite_yearly">Kila mwaka</string>
+  <string name="lite_sales">Jumla ya mauzo</string>
+  <string name="lite_expenses">Matumizi yaliyorekodiwa</string>
+  <string name="lite_estimate">Mauzo ukitoa gharama zilizorekodiwa</string>
+
+  <string name="lite_received">Pesa zilizopokelewa</string>
+  <string name="lite_credit_period">Deni jipya katika kipindi hiki</string>
+  <string name="lite_collections">Marejesho ya deni katika kipindi hiki</string>
+  <string name="lite_outstanding">Deni ninalodai sasa (tarehe zote)</string>
+  <string name="lite_net_receipts">Mapokezi ukitoa matumizi yaliyorekodiwa</string>
+  <string name="lite_receipts_note">Haya ni mabadiliko katika kipindi hiki, si salio halisi la taslimu au pochi ya simu. Fedha za kuanzia na zilizotolewa hazijajumuishwa.</string>
+  <string name="lite_add_expense">Ongeza matumizi</string>
+  <string name="lite_estimate_note">Kabla ya gharama ya bidhaa zilizouzwa. Mauzo ukitoa gharama zilizorekodiwa si faida wala salio la pesa. Gharama za awali za ununuzi na bidhaa ambazo hazijauzwa hazijakokotolewa.</string>
+  <string name="lite_today_summary">Biashara ya leo</string>
+  <string name="lite_favourites">Pendwa</string>
+  <string name="lite_favourite_add">Weka kwenye pendwa</string>
+  <string name="lite_favourite_remove">Ondoa kwenye pendwa</string>
+  <string name="lite_statement">Historia ya akaunti</string>
+  <string name="lite_debt_sale">Ununuzi wa deni</string>
+  <string name="lite_repayment">Malipo ya deni</string>
+  <string name="lite_date">Tarehe</string>
+  <string name="lite_quantity_basis">Pcs = vipande/pakiti · Kg = uzito wa bidhaa · Ltr = ujazo wa bidhaa</string>
+  <string name="lite_product_sugar">Sukari ya kupima</string>
+  <string name="lite_product_rice">Mchele wa kupima</string>
+  <string name="lite_product_beans">Maharagwe ya kupima</string>
+  <string name="lite_product_oil">Mafuta ya kupikia ya kupima</string>
+  <string name="lite_product_fat">Mafuta magumu ya kupikia</string>
+  <string name="lite_product_milk">Pakiti ya maziwa</string>
+  <string name="lite_product_bread">Mkate wa dukani</string>
+  <string name="lite_product_flour">Pakiti ya unga wa mahindi kilo 2</string>
+  <string name="lite_product_salt">Pakiti ya chumvi gramu 500</string>
+  <string name="lite_product_tea">Pakiti ya majani ya chai gramu 100</string>
+  <string name="lite_product_water">Chupa ya maji ml 500</string>
+  <string name="lite_product_soda">Soda ya chupa</string>
+  <string name="lite_product_tissue">Roli ya karatasi ya chooni</string>
+  <string name="lite_product_matches">Kiberiti</string>
+  <string name="lite_product_eggs">Yai moja</string>
+<string name="lite_category_food">Vyakula</string>
+<string name="lite_category_drinks">Vinywaji</string>
+<string name="lite_category_personal">Usafi binafsi</string>
+</resources>

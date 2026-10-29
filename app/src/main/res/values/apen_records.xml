@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <string name="r2_scope">Shop and trader review build. Other business workflows are not yet supported.</string>
+
+  <string name="r2_growth">Recorded change</string>
+
+  <string name="r2_comparison_notice">Current period to now, compared with the previous period through the corresponding local date/time. Calendar lengths may differ. These are recorded figures, not proof of business growth.</string>
+
+  <string name="r2_previous_period">Previous comparison: %1$s</string>
+
+  <string name="r2_previous_sales">Previous recorded sales: %1$s</string>
+
+  <string name="r2_sales_change">Change in recorded sales: %1$s</string>
+
+  <string name="r2_not_enough_history">No sales records in the previous comparison period. A sales change cannot be calculated; missing records do not mean zero activity.</string>
+
+  <string name="r2_coverage">Recording coverage</string>
+
+  <string name="r2_coverage_counts">Days with entries: %1$d · Marked no trade: %2$d · Without records or marker: %3$d</string>
+
+  <string name="r2_legacy">Original entry time unknown: %1$d</string>
+
+  <string name="r2_changes">Financial change events in this period: %1$d</string>
+
+  <string name="r2_coverage_notice">Coverage is not accuracy or a credit score. Missing days are unknown. Local device time and history are not independently verified. Corrections can be legitimate.</string>
+
+  <string name="r2_mark_closed">Mark today as no trade</string>
+
+  <string name="r2_unmark_closed">Remove today’s no-trade marker</string>
+
+  <string name="r2_statement">My business statement</string>
+
+  <string name="r2_preview">Preview my statement</string>
+
+  <string name="r2_self_recorded">Self-recorded by the owner; not independently verified. This is not a credit score or a promise of finance.</string>
+
+  <string name="r2_statement_period">Period: %1$s to %2$s</string>
+
+  <string name="r2_generated">Generated: %1$s · %2$s</string>
+
+  <string name="r2_debt_now">Deni owed to me now</string>
+
+  <string name="r2_debt_notice">Deni is the current outstanding amount when this statement was generated, not the balance at the end of a historical period. Received payments include old Deni collections and are not a cash or wallet balance.</string>
+
+  <string name="r2_privacy">Includes aggregate business figures. Individual customer names, phone numbers and payment references are excluded.</string>
+
+  <string name="r2_share_notice">Choose where to save or whom to share with. Apen cannot confirm receipt, Inuka acceptance or recall a file after you send it. Cancel to keep this preview on your phone.</string>
+
+  <string name="r2_share_consent">I have checked this period and content and choose to save or share this statement.</string>
+
+  <string name="r2_share_pdf">Share PDF…</string>
+
+  <string name="r2_save_pdf">Save PDF…</string>
+
+  <string name="r2_save_csv">Save summary CSV…</string>
+
+  <string name="r2_export_problem">The file could not be saved or shared. Check available storage and try again.</string>
+
+  <string name="r2_digest_notice">The CSV fingerprint helps compare copies. It does not prove the transactions happened or that a lender verified them.</string>
+
+  <string name="r2_details">See figures and definitions</string>
+
+  <string name="r2_receipts">See sale receipts</string>
+
+  <string name="r2_stock_reason">Reason for stock or price change</string>
+
+  <string name="r2_no_phone">Total customer purchases: %1$s</string>
+
+  <string name="r2_empty_expenses">Record a business expense, such as transport, rent or electricity. Keep stock purchases distinct when reviewing costs.</string>
+
+  <string name="r2_pin_explain">Your PIN protects business records on this phone. Keep an encrypted backup and its separate password safe. Losing both the PIN and backup password can prevent recovery.</string>
+
+  <string name="r2_recover">Recover owner access from backup</string>
+
+  <string name="r2_recovery_notice">Use your encrypted Apen backup, its password and the owner username saved in that backup. This replaces records on this phone with that backup and sets a new owner PIN. Later records on this phone will be lost. R1 backups did not contain loan notes. If you have neither a usable backup nor its password, this recovery cannot recover your records.</string>
+
+  <string name="r2_recovery_done">Backup restored and owner PIN reset. Restart Apen and sign in with that owner username and your new PIN.</string>
+
+  <string name="r2_pick_backup">Choose encrypted backup…</string>
+
+  <string name="r2_backup_selected">Backup selected — choose another…</string>
+
+  <string name="r2_backup_password">Backup password</string>
+
+  <string name="r2_replace_confirm">I understand this replaces this phone’s records with the selected backup.</string>
+
+  <string name="r2_recovery_problem">Recovery did not finish. Check the backup, password, owner username and new PIN. The selected backup must be compatible with this Android version.</string>
+
+  <string name="r2_restart">Restart Apen</string>
+
+  <string name="r2_restore_reset">Restore and reset owner PIN</string>
+
+  <string name="r2_empty_setup">New businesses start with empty records. Training data is not loaded into a new business.</string>
+
+  <string name="r2_history_retention">Corrections and removals retain original values in local change history. Older backups and files you already shared are not erased.</string>
+</resources>
+

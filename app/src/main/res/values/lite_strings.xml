@@ -1,0 +1,63 @@
+<resources>
+  <string name="lite_available">Available: %1$s</string>
+  <string name="lite_by_quantity">By quantity</string>
+  <string name="lite_by_money">By amount</string>
+  <string name="lite_budget">Amount requested (KES)</string>
+  <string name="lite_portion_price">Uses the saved price for this portion.</string>
+  <string name="lite_budget_note">Measured to whole grams or millilitres, rounded down. The shown charge is for that quantity and may be slightly below the requested amount.</string>
+  <string name="lite_quantity_error">Enter a positive quantity within available stock. Weight and volume support whole grams and millilitres.</string>
+  <string name="lite_add_sale">Add to sale</string>
+  <string name="lite_part_payment">Part payment / balance on Deni</string>
+  <string name="lite_received_by">First payment method</string>
+  <string name="lite_received_now">First payment amount (KES)</string>
+  <string name="lite_balance">Remaining amount: %1$s</string>
+  <string name="lite_rate_hint">Price, cost and stock quantities below are per %1$s. Kg accepts grams as decimals, e.g. 0.25 = 250 g.</string>
+  <string name="lite_quarter_price">250 g / ml price (0 = proportional)</string>
+  <string name="lite_half_price">500 g / ml price (0 = proportional)</string>
+  <string name="lite_portion_hint">Optional portion prices apply to their preset buttons. Custom quantities use the normal per kg/litre rate.</string>
+  <string name="lite_report">Business summary</string>
+  <string name="lite_debts">Deni: money customers owe me</string>
+  <string name="lite_daily">Daily</string>
+  <string name="lite_weekly">Weekly</string>
+  <string name="lite_monthly">Monthly</string>
+  <string name="lite_yearly">Yearly</string>
+  <string name="lite_sales">Total sales</string>
+  <string name="lite_expenses">Recorded expenses</string>
+  <string name="lite_estimate">Sales less recorded expenses</string>
+
+  <string name="lite_received">Money received</string>
+  <string name="lite_credit_period">New Deni in this period</string>
+  <string name="lite_collections">Debt repayments received in this period</string>
+  <string name="lite_outstanding">Deni owed to me now (all dates)</string>
+  <string name="lite_net_receipts">Received payments less recorded expenses</string>
+  <string name="lite_receipts_note">This is movement during the period, not your exact till or mobile-wallet balance. Opening balances and withdrawals are not included.</string>
+  <string name="lite_add_expense">Add expense</string>
+  <string name="lite_estimate_note">Before cost of goods sold. Sales less recorded expenses is not profit or a cash balance. Historical buying costs and unsold stock are not calculated.</string>
+  <string name="lite_today_summary">Today’s business</string>
+  <string name="lite_favourites">Favourites</string>
+  <string name="lite_favourite_add">Pin to favourites</string>
+  <string name="lite_favourite_remove">Remove from favourites</string>
+  <string name="lite_statement">Account history</string>
+  <string name="lite_debt_sale">Credit purchase</string>
+  <string name="lite_repayment">Repayment</string>
+  <string name="lite_date">Date</string>
+  <string name="lite_quantity_basis">Pcs = pieces/packs · Kg = loose weight · Ltr = loose volume</string>
+  <string name="lite_product_sugar">Loose sugar</string>
+  <string name="lite_product_rice">Loose rice</string>
+  <string name="lite_product_beans">Loose beans</string>
+  <string name="lite_product_oil">Loose liquid cooking oil</string>
+  <string name="lite_product_fat">Solid cooking fat</string>
+  <string name="lite_product_milk">Fresh milk packet</string>
+  <string name="lite_product_bread">Bread loaf</string>
+  <string name="lite_product_flour">Maize flour 2 kg packet</string>
+  <string name="lite_product_salt">Salt 500 g packet</string>
+  <string name="lite_product_tea">Tea leaves 100 g packet</string>
+  <string name="lite_product_water">Water 500 ml bottle</string>
+  <string name="lite_product_soda">Bottled soda</string>
+  <string name="lite_product_tissue">Tissue roll</string>
+  <string name="lite_product_matches">Matchbox</string>
+  <string name="lite_product_eggs">Single egg</string>
+<string name="lite_category_food">Food</string>
+<string name="lite_category_drinks">Drinks</string>
+<string name="lite_category_personal">Personal care</string>
+</resources>

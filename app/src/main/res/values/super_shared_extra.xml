@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="super_no_trade_help">Mark a day only when no business activity took place. Dates without this confirmation or records remain unknown.</string>
+    <string name="super_other_money_help">Owner capital, loan proceeds, grants and transfers are separate from sales and trade payments.</string>
+    <string name="super_recorded">Recorded</string>
+    <string name="super_top_sellers">Top sellers by quantity</string>
+</resources>

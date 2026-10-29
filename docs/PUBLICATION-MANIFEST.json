@@ -1,0 +1,60 @@
+{
+  "repository": "https://github.com/apenkodersoftware/Apen-Super-App",
+  "branch": "main",
+  "tag": "r3-review-2026-10-29",
+  "publication_date": "2026-10-30",
+  "build_review_date": "2026-10-29",
+  "runtime_source_fingerprint": "c61fbef0b9199abb429e77ad7cea553f167b711afff160ba7ae83d81444e4ace",
+  "runtime_source_unchanged": true,
+  "private_signing_material_included": false,
+  "credential_scan": "passed",
+  "source_and_evidence_file_count": 482,
+  "customer_release_approved": false,
+  "original_local_manifest_note": "Original local source ZIP hash is historical; that signing-key-containing ZIP is not uploaded. Use Public-Source.zip and the publication checksums.",
+  "assets": {
+    "Apen-Poultry-Scenario-Plan.md": {
+      "bytes": 5946,
+      "sha256": "e3ae2186bdfd965e306d313f840f1b769ab4d21242fd27f32b4ca94ccf75541e"
+    },
+    "Apen-Super-App-PLAN.md": {
+      "bytes": 14181,
+      "sha256": "1ef7010d008a90ef8b49c9e68fdcab9054f3d8eb3792bdea5294c12513143a25"
+    },
+    "Apen-Super-R3-0.3.0-review-20261029-debug.apk": {
+      "bytes": 23331425,
+      "sha256": "fb5827f14160d54b7f005b20cc42d0e9b67ee9291554db44987ce19f18f33cf3"
+    },
+    "Apen-Super-R3-Artifact-Manifest.json": {
+      "bytes": 2513,
+      "sha256": "48ddd89a658d549e73bb270bd82f296eea2c1e7a89439a63e27b3e9cce802d46"
+    },
+    "Apen-Super-R3-Evidence.zip": {
+      "bytes": 9847820,
+      "sha256": "7f1f888f37f63f3f64bf8b9ec7fdc24ccc234049afaae37aaf158d48d5942a3e"
+    },
+    "Apen-Super-R3-Handover.md": {
+      "bytes": 10310,
+      "sha256": "aa1c8d96cf5221e19ecc203baa6ed30e8740a623881a8b7b5a542d5dee346f4a"
+    },
+    "Apen-Super-R3-Installed-Dairy.png": {
+      "bytes": 121939,
+      "sha256": "7f488d73660d3891d1442556ee01d2b64edee2f3a61d6e6b926adc2d68beba14"
+    },
+    "Apen-Super-R3-Product-Summary.md": {
+      "bytes": 5355,
+      "sha256": "dc9b916d05d5d588d865639197ab0b9f0e34f87687d8f1181edf35a001dd00c5"
+    },
+    "Apen-Super-R3-Public-Source.zip": {
+      "bytes": 2125298,
+      "sha256": "31a027f5d438f0fb7665ab0bb552cb372a48f29a43cd90601da3605a316931ab"
+    },
+    "Apen-Super-R3-Publication-Notes.md": {
+      "bytes": 2672,
+      "sha256": "1e354417baab668318b0f025c627b35cf2acb4d54da7d2d31e25cf753e6af352"
+    },
+    "Apen-Super-R3-Signature.txt": {
+      "bytes": 1046,
+      "sha256": "e43d170bbb09835f5b484a46b77873c480813e6daefaec81fbd98b27b689af40"
+    }
+  }
+}

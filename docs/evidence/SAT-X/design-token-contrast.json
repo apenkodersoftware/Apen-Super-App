@@ -1,0 +1,176 @@
+{
+  "method": "Relative luminance of explicitly assigned text and surface tokens",
+  "minimum_ratio": 4.5,
+  "all_pass": true,
+  "measurements": [
+    {
+      "type": "DAIRY",
+      "role": "button-text",
+      "foreground": "FFFFFF",
+      "background": "24553A",
+      "contrast": 8.62
+    },
+    {
+      "type": "DAIRY",
+      "role": "body-background",
+      "foreground": "20392B",
+      "background": "FAFBF2",
+      "contrast": 11.98
+    },
+    {
+      "type": "DAIRY",
+      "role": "body-card",
+      "foreground": "20392B",
+      "background": "E4EED9",
+      "contrast": 10.43
+    },
+    {
+      "type": "DAIRY",
+      "role": "body-surface",
+      "foreground": "20392B",
+      "background": "FFFFFF",
+      "contrast": 12.49
+    },
+    {
+      "type": "DAIRY",
+      "role": "link-background",
+      "foreground": "24553A",
+      "background": "FAFBF2",
+      "contrast": 8.27
+    },
+    {
+      "type": "DAIRY",
+      "role": "link-card",
+      "foreground": "24553A",
+      "background": "E4EED9",
+      "contrast": 7.2
+    },
+    {
+      "type": "RENTAL",
+      "role": "button-text",
+      "foreground": "FFFFFF",
+      "background": "314B70",
+      "contrast": 8.86
+    },
+    {
+      "type": "RENTAL",
+      "role": "body-background",
+      "foreground": "23344C",
+      "background": "FAF7F0",
+      "contrast": 11.77
+    },
+    {
+      "type": "RENTAL",
+      "role": "body-card",
+      "foreground": "23344C",
+      "background": "E4EAF4",
+      "contrast": 10.42
+    },
+    {
+      "type": "RENTAL",
+      "role": "body-surface",
+      "foreground": "23344C",
+      "background": "FFFFFF",
+      "contrast": 12.6
+    },
+    {
+      "type": "RENTAL",
+      "role": "link-background",
+      "foreground": "314B70",
+      "background": "FAF7F0",
+      "contrast": 8.28
+    },
+    {
+      "type": "RENTAL",
+      "role": "link-card",
+      "foreground": "314B70",
+      "background": "E4EAF4",
+      "contrast": 7.33
+    },
+    {
+      "type": "RESTAURANT",
+      "role": "button-text",
+      "foreground": "FFFFFF",
+      "background": "873E22",
+      "contrast": 7.66
+    },
+    {
+      "type": "RESTAURANT",
+      "role": "body-background",
+      "foreground": "472D21",
+      "background": "FFF8EE",
+      "contrast": 11.96
+    },
+    {
+      "type": "RESTAURANT",
+      "role": "body-card",
+      "foreground": "472D21",
+      "background": "F8E1C8",
+      "contrast": 9.97
+    },
+    {
+      "type": "RESTAURANT",
+      "role": "body-surface",
+      "foreground": "472D21",
+      "background": "FFFFFF",
+      "contrast": 12.61
+    },
+    {
+      "type": "RESTAURANT",
+      "role": "link-background",
+      "foreground": "873E22",
+      "background": "FFF8EE",
+      "contrast": 7.26
+    },
+    {
+      "type": "RESTAURANT",
+      "role": "link-card",
+      "foreground": "873E22",
+      "background": "F8E1C8",
+      "contrast": 6.05
+    },
+    {
+      "type": "RETAIL",
+      "role": "button-text",
+      "foreground": "FFFFFF",
+      "background": "125B72",
+      "contrast": 7.59
+    },
+    {
+      "type": "RETAIL",
+      "role": "body-background",
+      "foreground": "203D48",
+      "background": "F3FAFC",
+      "contrast": 10.91
+    },
+    {
+      "type": "RETAIL",
+      "role": "body-card",
+      "foreground": "203D48",
+      "background": "DCEEF3",
+      "contrast": 9.64
+    },
+    {
+      "type": "RETAIL",
+      "role": "body-surface",
+      "foreground": "203D48",
+      "background": "FFFFFF",
+      "contrast": 11.52
+    },
+    {
+      "type": "RETAIL",
+      "role": "link-background",
+      "foreground": "125B72",
+      "background": "F3FAFC",
+      "contrast": 7.19
+    },
+    {
+      "type": "RETAIL",
+      "role": "link-card",
+      "foreground": "125B72",
+      "background": "DCEEF3",
+      "contrast": 6.35
+    }
+  ],
+  "limit": "Token check; does not claim a complete physical-display accessibility audit."
+}

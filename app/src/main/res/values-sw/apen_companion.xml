@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apen_loans">Mikopo na mipango · Inuka</string>
+    <string name="apen_review_notice">Mapitio ya Apen: rekodi za biashara na mipango yako. Pendekezo hili halijaunganishwa na akaunti za Inuka. Hakuna mkopo, idhini au malipo yanayofanywa hapa.</string>
+    <string name="apen_catalogue_date">Taarifa za bidhaa za umma zilikaguliwa: %1$s</string>
+    <string name="apen_contact">Wasiliana na Inuka kupitia tovuti rasmi</string>
+    <string name="apen_my_plans">Mipango yangu ya malipo</string>
+    <string name="apen_plan_notice">Kumbukumbu zako za tarehe za kulipa, tofauti na Deni la wateja. Zinajumuishwa kwenye nakala mpya zilizosimbwa. Nakala za R1 hazikuwa na mipango hii. Si salio rasmi, risiti wala arifa. Marekebisho na uondoaji huhifadhi thamani za awali katika historia ya kifaa. Nakala za zamani na faili ulizoshiriki hazifutwi.</string>
+    <string name="apen_storage_problem">Imeshindikana kusoma au kuhifadhi mipango yako. Rekodi zako hazijafutwa. Fungua ukurasa huu tena na ujaribu.</string>
+    <string name="apen_empty_plans">Hakuna mipango iliyohifadhiwa. Chagua bidhaa hapa chini uweke kumbukumbu ya tarehe ya kulipa.</string>
+    <string name="apen_customer_entered">Imeingizwa na wewe · haijathibitishwa na Inuka</string>
+    <string name="apen_remove_plan">Ondoa kumbukumbu yangu</string>
+    <string name="apen_products">Angalia bidhaa zote za Inuka</string>
+    <string name="apen_product_notice">Viwango na vipindi vilivyochapishwa ni taarifa tu. Thibitisha riba, ada, ustahiki na ratiba yako halisi na Inuka. Majina na vipindi vya bidhaa hapa chini vinafuata katalogi ya umma.</string>
+    <string name="apen_open_catalogue">Fungua katalogi rasmi ya bidhaa</string>
+    <string name="apen_add_plan">Weka kumbukumbu ya tarehe ya kulipa</string>
+    <string name="apen_remove_notice">Hii inaondoa kumbukumbu yako tu. Haifuti, hailipi wala haibadilishi mkopo wa Inuka.</string>
+    <string name="apen_cancel">Ghairi</string>
+    <string name="apen_save">Hifadhi kumbukumbu yangu</string>
+    <string name="apen_plan_entry_note">Tumia kiasi na tarehe kutoka ratiba yako halisi. Kuhifadhi hapa hakuombi mkopo wala kurekodi malipo.</string>
+    <string name="apen_next_amount">Malipo yajayo kwenye ratiba · KES</string>
+    <string name="apen_due_date">Tarehe ya kulipa · YYYY-MM-DD</string>
+    <string name="apen_invalid_plan">Weka kiasi chanya chenye hadi desimali 2 na tarehe sahihi, kwa mfano 2026-11-02.</string>
+    <string name="apen_no_browser">Hakuna kivinjari. Fungua anwani hii kwenye kifaa kingine: %1$s</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="super_quarter_price">Quarter-unit price (0 uses unit price)</string>
+    <string name="super_half_price">Half-unit price (0 uses unit price)</string>
+    <string name="super_tier_price_help">Quarter and half prices apply to exactly 0.25 and 0.5 Kg or litre. Cost price is kept for stock records; it is not a cost-of-goods-sold calculation.</string>
+    <string name="super_option_box">Box</string>
+    <string name="super_option_bag">Bag</string>
+    <string name="super_discount">Discount (KES)</string>
+    <string name="super_checkout">Payment options</string>
+    <string name="super_no_customer">No customer Deni</string>
+</resources>

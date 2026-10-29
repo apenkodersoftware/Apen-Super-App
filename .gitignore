@@ -1,0 +1,38 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+**/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env
+
+.idea/
+
+# preflight.sh output
+debug_logs/
+
+# Release signing (never commit)
+keystore.properties
+*.jks
+*.p12
+
+# Local signing material and private review data
+*.keystore
+*.key
+*.pem
+*.db
+*.db-wal
+*.db-shm
+*.flbk
+private*/

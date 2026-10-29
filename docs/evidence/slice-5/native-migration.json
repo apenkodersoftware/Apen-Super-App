@@ -1,0 +1,155 @@
+{
+  "schema": 8,
+  "integrity": "ok",
+  "tables": {
+    "products": {
+      "rows": 25,
+      "original_columns_identical": true
+    },
+    "sales": {
+      "rows": 1,
+      "original_columns_identical": true
+    },
+    "sale_items": {
+      "rows": 1,
+      "original_columns_identical": true
+    },
+    "sale_payments": {
+      "rows": 0,
+      "original_columns_identical": true
+    },
+    "suppliers": {
+      "rows": 1,
+      "original_columns_identical": true
+    },
+    "purchase_orders": {
+      "rows": 0,
+      "original_columns_identical": true
+    },
+    "expenses": {
+      "rows": 0,
+      "original_columns_identical": true
+    },
+    "customers": {
+      "rows": 1,
+      "original_columns_identical": true
+    },
+    "customer_payments": {
+      "rows": 0,
+      "original_columns_identical": true
+    },
+    "branches": {
+      "rows": 1,
+      "original_columns_identical": true
+    },
+    "staff_users": {
+      "rows": 3,
+      "original_columns_identical": true
+    },
+    "sync_queue": {
+      "rows": 0,
+      "original_columns_identical": true
+    },
+    "recording_events": {
+      "rows": 1,
+      "original_columns_identical": true
+    },
+    "personal_loan_plans": {
+      "rows": 1,
+      "original_columns_identical": true
+    },
+    "recording_meta": {
+      "rows": 1,
+      "original_columns_identical": true
+    },
+    "recorded_days": {
+      "rows": 0,
+      "original_columns_identical": true
+    },
+    "record_origins": {
+      "rows": 29,
+      "original_columns_identical": true
+    },
+    "super_businesses": {
+      "rows": 4,
+      "original_columns_identical": true
+    },
+    "super_parties": {
+      "rows": 6,
+      "original_columns_identical": true
+    },
+    "super_milk": {
+      "rows": 4,
+      "original_columns_identical": true
+    },
+    "super_properties": {
+      "rows": 1,
+      "original_columns_identical": true
+    },
+    "super_units": {
+      "rows": 3,
+      "original_columns_identical": true
+    },
+    "super_tenancies": {
+      "rows": 3,
+      "original_columns_identical": true
+    },
+    "super_rent_charges": {
+      "rows": 5,
+      "original_columns_identical": true
+    },
+    "super_items": {
+      "rows": 30,
+      "original_columns_identical": true
+    },
+    "super_sales": {
+      "rows": 2,
+      "original_columns_identical": true
+    },
+    "super_sale_lines": {
+      "rows": 4,
+      "original_columns_identical": true
+    },
+    "super_charges": {
+      "rows": 11,
+      "original_columns_identical": true
+    },
+    "super_receipts": {
+      "rows": 6,
+      "original_columns_identical": true
+    },
+    "super_deductions": {
+      "rows": 1,
+      "original_columns_identical": true
+    },
+    "super_allocations": {
+      "rows": 9,
+      "original_columns_identical": true
+    },
+    "super_expenses": {
+      "rows": 3,
+      "original_columns_identical": true
+    },
+    "super_money_in": {
+      "rows": 0,
+      "original_columns_identical": true
+    },
+    "super_ledger": {
+      "rows": 20,
+      "original_columns_identical": true
+    },
+    "super_history": {
+      "rows": 41,
+      "original_columns_identical": true
+    },
+    "super_no_trade": {
+      "rows": 0,
+      "original_columns_identical": true
+    }
+  },
+  "all_existing_rows_preserved": true,
+  "legacy_tier_prices_match": true,
+  "installed_bytes_match": true,
+  "apk_sha256": "9a033261eee01154468e7b7f5b5c273a503ccc6292071f65809df155ed0ed2ea",
+  "apk_bytes": 23963843
+}

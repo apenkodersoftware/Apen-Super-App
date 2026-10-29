@@ -1,0 +1,3 @@
+# Preserve reviewed source and evidence bytes, including CSV report digests.
+* -text
+gradlew text eol=lf

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+  <string name="r2_scope">Toleo la mapitio kwa maduka na wafanyabiashara. Aina nyingine za biashara bado hazijawezeshwa.</string>
+
+  <string name="r2_growth">Mabadiliko ya rekodi</string>
+
+  <string name="r2_comparison_notice">Kipindi cha sasa hadi sasa kinalinganishwa na kipindi kilichopita hadi tarehe/saa inayolingana. Urefu wa miezi unaweza kutofautiana. Hizi ni rekodi, si uthibitisho wa ukuaji wa biashara.</string>
+
+  <string name="r2_previous_period">Kipindi cha kulinganisha: %1$s</string>
+
+  <string name="r2_previous_sales">Mauzo yaliyorekodiwa awali: %1$s</string>
+
+  <string name="r2_sales_change">Tofauti ya mauzo yaliyorekodiwa: %1$s</string>
+
+  <string name="r2_not_enough_history">Hakuna rekodi za mauzo katika kipindi cha awali cha kulinganisha. Tofauti ya mauzo haiwezi kukokotolewa; kukosa rekodi hakumaanishi hakukuwa na biashara.</string>
+
+  <string name="r2_coverage">Uwepo wa rekodi</string>
+
+  <string name="r2_coverage_counts">Siku zenye rekodi: %1$d · Zilizowekwa bila biashara: %2$d · Bila rekodi wala alama: %3$d</string>
+
+  <string name="r2_legacy">Rekodi zisizo na saa ya awali inayojulikana: %1$d</string>
+
+  <string name="r2_changes">Mabadiliko ya rekodi za fedha katika kipindi hiki: %1$d</string>
+
+  <string name="r2_coverage_notice">Uwepo wa rekodi si uthibitisho wa usahihi wala alama ya mkopo. Siku zisizo na rekodi hazijulikani. Saa na historia ya kifaa havijathibitishwa kwa kujitegemea. Marekebisho yanaweza kuwa halali.</string>
+
+  <string name="r2_mark_closed">Weka leo kuwa siku bila biashara</string>
+
+  <string name="r2_unmark_closed">Ondoa alama ya leo ya kutofanya biashara</string>
+
+  <string name="r2_statement">Taarifa ya biashara yangu</string>
+
+  <string name="r2_preview">Hakiki taarifa yangu</string>
+
+  <string name="r2_self_recorded">Imeandikwa na mwenye biashara; haijathibitishwa kwa kujitegemea. Si alama ya mkopo wala ahadi ya ufadhili.</string>
+
+  <string name="r2_statement_period">Kipindi: %1$s hadi %2$s</string>
+
+  <string name="r2_generated">Imetolewa: %1$s · %2$s</string>
+
+  <string name="r2_debt_now">Deni ninalodai sasa</string>
+
+  <string name="r2_debt_notice">Deni ni kiasi kinachodaiwa wakati taarifa inatolewa, si salio la mwisho wa kipindi cha zamani. Pesa zilizopokelewa zinajumuisha makusanyo ya Deni la zamani; si salio la pesa taslimu au pochi.</string>
+
+  <string name="r2_privacy">Inajumuisha jumla za biashara. Majina ya wateja binafsi, nambari za simu na kumbukumbu za malipo hazijajumuishwa.</string>
+
+  <string name="r2_share_notice">Chagua mahali pa kuhifadhi au mtu wa kushirikisha. Apen haiwezi kuthibitisha kupokelewa, kukubaliwa na Inuka au kurudisha faili lililotumwa. Ghairi ili hakikisho libaki kwenye simu yako.</string>
+
+  <string name="r2_share_consent">Nimehakiki kipindi na yaliyomo na nimechagua kuhifadhi au kushiriki taarifa hii.</string>
+
+  <string name="r2_share_pdf">Shiriki PDF…</string>
+
+  <string name="r2_save_pdf">Hifadhi PDF…</string>
+
+  <string name="r2_save_csv">Hifadhi muhtasari wa CSV…</string>
+
+  <string name="r2_export_problem">Faili halikuweza kuhifadhiwa au kushirikiwa. Hakiki nafasi ya kuhifadhi kisha jaribu tena.</string>
+
+  <string name="r2_digest_notice">Alama ya CSV husaidia kulinganisha nakala. Haithibitishi kuwa miamala ilifanyika au ilithibitishwa na mkopeshaji.</string>
+
+  <string name="r2_details">Ona takwimu na maelezo</string>
+
+  <string name="r2_receipts">Ona risiti za mauzo</string>
+
+  <string name="r2_stock_reason">Sababu ya kubadili bidhaa au bei</string>
+
+  <string name="r2_no_phone">Jumla ya manunuzi ya mteja: %1$s</string>
+
+  <string name="r2_empty_expenses">Rekodi gharama ya biashara, kwa mfano usafiri, kodi au umeme. Tofautisha manunuzi ya bidhaa unapohakiki gharama.</string>
+
+  <string name="r2_pin_explain">PIN inalinda rekodi kwenye simu hii. Tunza nakala iliyosimbwa na nenosiri lake tofauti. Kupoteza PIN na nenosiri la nakala kunaweza kuzuia kurejesha rekodi.</string>
+
+  <string name="r2_recover">Rejesha ufikiaji wa mwenye biashara kwa nakala</string>
+
+  <string name="r2_recovery_notice">Tumia nakala ya Apen iliyosimbwa, nenosiri lake na jina la mwenye biashara lililohifadhiwa humo. Rekodi za simu hii zitabadilishwa kuwa za nakala, na PIN mpya itawekwa. Rekodi zilizoingizwa baadaye kwenye simu zitapotea. Nakala za R1 hazikuwa na mipango ya mikopo. Bila nakala inayotumika na nenosiri lake, njia hii haiwezi kurejesha rekodi zako.</string>
+
+  <string name="r2_recovery_done">Nakala imerejeshwa na PIN ya mwenye biashara imebadilishwa. Anzisha Apen upya, kisha ingia kwa jina la mwenye biashara na PIN mpya.</string>
+
+  <string name="r2_pick_backup">Chagua nakala iliyosimbwa…</string>
+
+  <string name="r2_backup_selected">Nakala imechaguliwa — chagua nyingine…</string>
+
+  <string name="r2_backup_password">Nenosiri la nakala</string>
+
+  <string name="r2_replace_confirm">Ninaelewa rekodi za simu hii zitabadilishwa kuwa za nakala iliyochaguliwa.</string>
+
+  <string name="r2_recovery_problem">Urejeshaji haujakamilika. Hakiki nakala, nenosiri, jina la mwenye biashara na PIN mpya. Nakala lazima iweze kutumika kwenye toleo hili la Android.</string>
+
+  <string name="r2_restart">Anzisha Apen upya</string>
+
+  <string name="r2_restore_reset">Rejesha nakala na ubadili PIN ya mwenye biashara</string>
+
+  <string name="r2_empty_setup">Biashara mpya huanza bila rekodi. Data ya mafunzo haiwekwi kwenye biashara mpya.</string>
+
+  <string name="r2_history_retention">Marekebisho na uondoaji huhifadhi thamani za awali katika historia ya kifaa. Nakala za zamani na faili ulizoshiriki hazifutwi.</string>
+</resources>
+

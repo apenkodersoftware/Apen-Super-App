@@ -1,0 +1,23 @@
+[
+  {
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suite": "com.aistudio.fasmovapos.app.superapp.RentalPolicyTest"
+  },
+  {
+    "tests": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suite": "com.aistudio.fasmovapos.app.superapp.SuperAcceptanceTest"
+  },
+  {
+    "tests": 2,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suite": "com.aistudio.fasmovapos.app.superapp.SuperFoundationTest"
+  }
+]

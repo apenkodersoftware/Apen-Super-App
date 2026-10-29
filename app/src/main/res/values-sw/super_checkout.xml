@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="super_full_if_blank">Acha Malipo sasa wazi ikiwa jumla baada ya punguzo imelipwa yote. Kwa malipo ya sehemu, andika ulichopokea.</string>
+  <string name="super_customer_from_deni">Kwa kiasi kisicholipwa, chagua mteja. Ongeza wateja wapya katika Deni kabla ya kuanza agizo.</string>
+  <string name="super_net_total">Jumla baada ya punguzo</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aistudio.fasmovapos.app.superapp.SharedRecordsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-29T08:53:17.094Z" hostname="APENKODERSOFTWA" time="26.497">
+  <properties/>
+  <testcase name="voidingDairyPaymentAlsoReversesItsCostDeductionExactlyOnce" classname="com.aistudio.fasmovapos.app.superapp.SharedRecordsTest" time="22.007"/>
+  <testcase name="dairyAverageUsesRecordedDeliveryDaysAndExpenseEditsKeepEntryTime" classname="com.aistudio.fasmovapos.app.superapp.SharedRecordsTest" time="0.434"/>
+  <testcase name="receiptAndSaleVoidsAreAtomicAndRestoreStockWithoutErasingOriginals" classname="com.aistudio.fasmovapos.app.superapp.SharedRecordsTest" time="0.734"/>
+  <testcase name="equalCompletedPeriodsRequireRecordedDaysAndMissingDaysStayUnknown" classname="com.aistudio.fasmovapos.app.superapp.SharedRecordsTest" time="0.668"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

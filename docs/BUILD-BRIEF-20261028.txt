@@ -1,0 +1,155 @@
+Apen Super App: Build Brief for the Coding Agent
+Oct 28, 2026
+How to use. Open the project in your coding agent and paste everything from section 1 onward as the first message. After each slice, ask for the evidence table in section 9. No prompt can guarantee a result. This one makes shallow delivery visible early, because “done” means a scripted scenario passes for each livelihood, with screenshots, not that the code compiles.
+What I got wrong, and what changed. I gave you a critique and a roadmap, not a build brief, and the roadmap put the non-retail livelihoods last. An agent following it built retail first and stopped. This brief reverses the order: the three missing livelihoods are built before retail is touched again.
+1. Mission
+You are building Apen, one Android app for informal business owners who are customers of Inuka Africa, a Kenyan microfinance lender. Four livelihoods must each be a real, usable workflow:
+1. Dairy farmer
+2. Landlord
+3. Roadside restaurant (mama ntilie)
+4. Small retail shop
+One install, one ledger, one backup, one statement format. Four different home screens, vocabularies and looks. A farmer who opens Apen must never see a shop till.
+Purpose. Help owners record their business, see whether it is growing or shrinking, and recover their records. Later, by the owner's choice only, a self-recorded statement can be shared with Inuka to support a conversation with an officer. Apen is not a lender app.
+2. What went wrong last time (do not repeat)
+• A retail till was delivered and called universal. Three of four livelihoods had no screen at all.
+• Every owner landed on the same Sell screen, in the same pale grey cards, with no visual identity. It looked identical to other retail apps.
+• Work was reported as complete because it compiled and a retail scenario passed.
+Failure condition. If any livelihood lacks its own home screen and a passing scenario from section 6, the work is not done, however good the code is.
+3. Boundaries
+• No integration with Inuka's USSD, payments or systems. The only Inuka link is the existing button to the official website. Keep the existing Inuka product directory and personal loan notes under More.
+• Local-first, offline. No backend, no accounts, no analytics that send data off the device.
+• No credit scoring, no lending judgments, no promise that records lead to a facility.
+• Never call a figure “profit”. Use “Sales less recorded expenses”, with “Before cost of goods sold; not profit or cash balance” beside it where goods are sold.
+• Reuse the existing code. Inspect the repository and any sibling apps in the workspace (Mama Ntilie, Kona Shop, Kazi Mob, Dwelify Kenya). Dwelify is a property listings marketplace, so reuse its visual ideas only, not its features.
+• Match the existing stack (check the repository; expect Kotlin, Jetpack Compose and Room). Do not change the stack.
+• Target an entry-level phone such as a Samsung Galaxy A07: low RAM, small screen, bright outdoor use.
+4. Definition of done
+The work is done only when every scenario below passes with automated tests where possible, and emulator screenshots saved under docs/evidence/<scenario>/.
+ID
+Scenario
+Defined in
+SAT-D
+Dairy farmer
+6.1
+SAT-L
+Landlord
+6.2
+SAT-R
+Roadside restaurant
+6.3
+SAT-S
+Small retail shop
+6.4
+SAT-X
+Cross-cutting: first run, two businesses, backup and restore, language, PIN, statement
+7
+5. Architecture
+Business profile. A business has a type (RETAIL, RESTAURANT, DAIRY, RENTAL), a name and currency KES. One install can hold several businesses (a farmer who also runs a kiosk). Every record carries a business ID. A header chip switches business.
+One ledger, domain events on top. Domain tables (milk deliveries, rent charges, menu sales, retail sale lines) are the source of truth and post to a common ledger. Never let an owner enter the same money twice.
+• Account per party (customer, buyer, tenant). An account holds charges (what is owed to the owner) and receipts (what was paid). This one concept covers retail Deni, a restaurant regular's tab, a dairy buyer's balance and a tenant's arrears.
+• Expense with category, date, payment method and optional M-Pesa code.
+• Money in that is not a sale (owner capital, loan proceeds, grants, transfers) is a separate kind and never counts as sales.
+• Provenance on every record: stable ID, date the activity happened, time it was recorded, edit and void history with original values and a reason, schema version. Legacy retail rows get “entry time unknown”. Never invent timestamps.
+• Migrate the existing retail database without losing data.
+Per-type shell. Each type has its own navigation (five tabs at most, the last is always More), home screen, entry flows, categories and vocabulary. Shared code supplies the ledger, accounts, periods, backup, PIN, language, statement and design tokens.
+Design system. One set of tokens and components, with a per-type theme: accent colour, header illustration, empty-state illustration and icon set. Bundle compressed vector or small raster assets; no network images. Reference points for warmth: the food imagery of Mama Ntilie and the branded onboarding of Dwelify. Do not copy their assets.
+6. Livelihood specifications
+6.1 Dairy farmer (Agribusiness) — SAT-D
+Who. A smallholder with one to twenty cows selling milk to a cooperative or society, a processor, a broker, hotels or neighbours.
+Home (“Milk” / “Maziwa”). Two large cards for today, Morning and Evening. One tap opens a big numeric keypad for litres (decimals such as 0.5 allowed); Save returns home. Show today's litres and value. Below, a seven-day strip of litres per day. Hero numbers, three only: Litres this month, Earned this month, Still owed by buyers.
+Tabs. Milk, Buyers, Costs, Summary, More.
+Flows.
+• Record milk: date (today), session, litres, buyer (last used), price per litre (buyer's default, editable).
+• Buyer: name, optional phone, type (cooperative, processor, broker, hotel, neighbour), default price per litre, payment cycle (daily, weekly, monthly).
+• Buyer account: earned (from deliveries), received, deductions, balance owed. The buyer owes the farmer, so label it accordingly.
+• Record payment: amount, date, method (M-Pesa with code, bank, cash) and optional deductions: feed, vet and AI, shares, advance or loan recovery, other. Each deduction has a flag “counts as a cost”. Costs post as expenses. Shares and advance recovery do not become expenses.
+• Costs categories: Feed, Vet and AI, Labour, Water and electricity, Transport, Equipment, Other.
+Summary. Day, Week, Month: litres, average litres per day, earned, received, spent, owed.
+Look. Green and earth tones, a cow and milk-can illustration in the header and empty states.
+SAT-D script (expected values are the test).
+1. Create a dairy business “Demo Dairy” and a buyer “Demo Dairy Society” at KES 50 per litre.
+2. Day 1: Morning 12 L, Evening 10 L. Day 2: Morning 11 L, Evening 9 L. Litres 42, earned KES 2,100, owed KES 2,100.
+3. Record a payment of KES 1,800 with a KES 300 feed deduction (counts as a cost). Owed KES 0, received KES 1,800, expenses KES 300.
+4. Add a vet cost of KES 500. Sales less recorded expenses: KES 2,100 − KES 800 = KES 1,300.
+5. Edit Day 1 Morning from 12 L to 13 L with a reason. The original value and reason stay visible in history; totals update to 43 L and KES 2,150, owed becomes KES 50, and sales less recorded expenses becomes KES 1,350.
+6. Back up, then restore on a second emulator. Everything matches.
+6.2 Landlord — SAT-L
+Who. An owner of one to fifty rental units who collects rent monthly and chases arrears.
+Home (“Rent” / “Kodi”). Month selector. Hero, three numbers: Collected of Expected, Arrears, Vacant units. Below, one row per unit with a status chip (Paid, Part-paid, Unpaid, Vacant; the chip carries a word, not only a colour) and the amount due. Tapping a row opens Record rent payment.
+Tabs. Rent, Units, Costs, Summary, More.
+Flows.
+• Property (name) and unit (label, monthly rent, due day 1 to 28, optional deposit, occupied or vacant).
+• Tenant: name, phone, move-in date, move-out date.
+• Monthly charges are created locally for occupied units when a month begins, on app open, with a visible note “Charges created for November”. Catch up any missed months. No background services.
+• Record payment: unit, amount, date, method, M-Pesa code. It applies to the oldest arrears first and shows that.
+• Share: a rent receipt and a reminder message, each prefilled text the owner sends through the phone's share sheet. The app never sends anything itself.
+• Move out: stops future charges. A deposit is recorded as held money, never as income.
+• Costs categories: Repairs and maintenance, Caretaker, Water, Electricity, Security, Land rates and fees, Agent commission, Other.
+Summary. Per month and per property: expected, collected, arrears with age in months, expenses, vacancy.
+Look. A calm, distinct accent, a building illustration, a warm tone in the spirit of Dwelify.
+SAT-L script.
+1. Property “Demo Court” with units A1 KES 8,000, A2 KES 8,000, B1 KES 12,000, all occupied, due day 5. October expected: KES 28,000.
+2. A1 pays KES 8,000 (M-Pesa code). A2 pays KES 5,000. B1 pays nothing. Collected KES 13,000. Arrears KES 15,000 (A2 KES 3,000, B1 KES 12,000).
+3. Add a plumbing repair of KES 2,500. Collected less expenses: KES 10,500.
+4. Mark B1 vacant from 1 November. On opening November, charges are created for A1 and A2 only. Owed now: A1 KES 8,000, A2 KES 11,000 (KES 3,000 October arrears plus KES 8,000 November), and B1's October arrears of KES 12,000 remain unpaid. Total owed KES 31,000, with no double counting.
+5. A payment of KES 3,000 on A2 clears October arrears first.
+6. The reminder text for A2 opens the share sheet with the correct amount and unit. Nothing is sent automatically.
+6.3 Roadside restaurant — SAT-R
+Who. A mama ntilie or small eatery selling plates and cups all day, buying ingredients daily, with little or no per-item stock.
+Home (“Sell” / “Uza”). Large menu tiles in two columns: name, price, and an icon or image. One tap adds one; the order bar shows items and total; three payment buttons: Cash, M-Pesa, Deni. A normal three-item order takes four taps or fewer and under ten seconds. No keyboard needed. A Custom amount tile covers off-menu sales. No stock counts. A thin strip shows takings so far today.
+Tabs. Sell, Menu, Costs, Today, More.
+Flows.
+• Menu: name, price, category (Food, Drinks, Snacks), optional photo, archive. Best sellers rise to the top automatically.
+• Costs (“Shopping today”): quick buttons for Flour and cereals, Vegetables, Meat and fish, Cooking oil and gas, Charcoal and firewood, Water, Wages, Rent and permit, Other, with “buy again” from a past purchase.
+• Deni for regular customers: balance, collect payment.
+• Today: sales, spent, still owed, Sales less recorded expenses, top sellers by count, compared with yesterday only when an equal period exists.
+Look. Warm and appetising, with bundled food illustrations or small compressed photos in the spirit of Mama Ntilie. Big text, big tiles.
+SAT-R script.
+1. Menu: Chai KES 20, Chapati KES 20, Githeri KES 60, Ugali and sukuma KES 80, Samosa KES 15.
+2. Sell 25 Chai, 15 Chapati and 20 Githeri across the day: KES 500 + KES 300 + KES 1,200 = KES 2,000 sales.
+3. KES 120 of that was sold on Deni to a regular. Received KES 1,880, owed KES 120.
+4. Record shopping of KES 900. Sales less recorded expenses: KES 1,100.
+5. The regular pays KES 120 the next day. Received rises, owed returns to KES 0, sales do not change.
+6. Time a three-item order on the emulator. Four taps or fewer.
+6.4 Small retail shop — SAT-S
+Keep the existing Sell, Stock, Today and Deni workflows, with these changes: promote Deni to a tab; fix contrast and hierarchy; consistent “left” labels (“10 Kg left”, “24 left”); Add stock and Restock visible on each stock row; a distinct retail look. Do not rebuild margins until a cost-at-sale method is agreed.
+SAT-S script. Sell items worth KES 280 receiving KES 100. Owed KES 180, sales KES 280. Later collection of KES 50: owed KES 130, sales still KES 280, received rises by KES 50. No screen shows KES 280 as profit.
+7. Shell and cross-cutting features — SAT-X
+First run. A welcome screen with four large illustrated cards: Dairy farm, Rental property, Food business, Shop. The choice creates the business and opens its own home. Offer a clearly labelled demo mode that never mixes with live records.
+Shell rules (all types).
+• Plain words, one term per concept. Kiswahili is first-class: every string exists in English and Kiswahili. Starter terms: Maziwa, Lita, Deni, Malipo, Matumizi, Mauzo, Kodi, Mpangaji, Nyumba, Chakula, Chai. List every other Swahili finance term in docs/swahili-review.md for native review.
+• Format money as “KES 2,000” and dates as “Fri 30 Oct 2026” everywhere. Zero is neutral, never red. Low or late states carry a word or icon, not only colour.
+• Body text 16sp or more, tap targets 48dp or more, contrast 4.5:1 or more. Respect system font scaling to 130% without clipping.
+• Every empty screen explains the first action with an illustration.
+• Three hero numbers per home screen at most. Details live one tap lower.
+• The “More” tab groups Settings, Backup, Language, Help, Terms and privacy, Loans and plans (information only), Logout.
+SAT-X checks.
+1. First run to all four home screens. Save four screenshots that look visibly different (layout, colour, illustration, vocabulary).
+2. Create a second business (dairy plus shop), switch between them, and confirm records do not mix.
+3. Back up everything, restore on a second emulator, and confirm every business, account, edit history and loan note comes back.
+4. Toggle Kiswahili on each home screen. No English leftovers.
+5. Set a PIN, then recover through a backup.
+6. Statement (build last). For a chosen period, export a PDF and a versioned CSV from any business type with the same layout and stated definitions: earned or sales, received, spent, owed, recording coverage, “self-recorded, not verified”, report ID, generation time and app version. Preview before sharing. Omit customer, buyer and tenant names and phone numbers by default. Show today's owed balance as an as-of-now figure.
+8. Order of work
+The order is the main safeguard. Do not skip ahead.
+• Slice 0: read and plan. Inspect the repository and sibling apps. Write docs/PLAN.md mapping every SAT step to screens, classes and tests, listing what you will reuse, your assumptions and risks. Write the SAT tests first as failing tests.
+• Slice 1: foundation. Business profile, accounts and ledger generalisation, database migration, provenance fields, design tokens and per-type themes, per-type navigation, first-run chooser. Existing retail must still pass SAT-S.
+• Slice 2: dairy. Complete SAT-D.
+• Slice 3: landlord. Complete SAT-L.
+• Slice 4: restaurant. Complete SAT-R.
+• Slice 5: retail polish. Only now. Complete SAT-S changes.
+• Slice 6: cross-cutting. Backup coverage, edit history, PIN recovery, Kiswahili pass, then the statement.
+• Slice 7: hardening. Entry-level device tests, accessibility, APK size and start-up time, lint, release build.
+Reporting. In docs/evidence/ keep screenshots per scenario. After each slice, reply with this table and nothing less:
+Scenario
+Status (Complete, Partial, Not started)
+Tests
+Screenshots
+Not verified
+9. Honesty and stop rules
+• Never mark a scenario Complete unless its script passes exactly, with the expected numbers.
+• Never relabel retail screens as another livelihood. A livelihood either has its own home and flows or is shown as “Coming soon”, unselectable, with a message on first run.
+• If effort runs short, deliver fewer livelihoods at full quality, not all four shallowly, and say so plainly.
+• State what was not run: emulator results are not physical-phone results.
+• When the brief is ambiguous, choose the option that serves the unbuilt livelihoods, write the assumption in docs/PLAN.md, and continue. Stop and ask only if blocked.
+• Make no claim of profit, creditworthiness, Inuka acceptance, or growth beyond what the data on screen supports. Equal-period comparison only, with a “not enough recorded history” state, and never treat a day with no records as zero sales.

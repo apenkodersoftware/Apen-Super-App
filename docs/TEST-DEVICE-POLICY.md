@@ -1,0 +1,7 @@
+# Test device constraint — user update, 29 October 2026
+
+The user explicitly requires **emulator-5554 only at all times**. Its configured customer-phone dimensions, aspect ratio and skin are the target. Do not start or use emulator-5556 or another emulator. Do not change5554's configured dimensions/density to substitute another device.
+
+This supersedes the original brief's second-emulator restore wording. Recovery evidence must identify same-device validation on5554 and must never claim a second-device restore passed. Preserve current application data before any recovery test. Prefer isolated verification storage/package on the same configured emulator for destructive fresh-setup or PIN-reset tests; the primary review installation must remain recoverable and its credentials/records preserved.
+
+A separate workspace AVD was briefly created during the earlier interpretation of the brief. It is stopped and must not be restarted or used. No successful second-emulator restore occurred. The whole backup was subsequently created and authenticated. Native recovery into the isolated verification installation on emulator-5554 succeeded; all 36 data tables matched the authenticated source, with only the documented verification-owner PIN reset and import marker differences. The primary installation remained unchanged. See evidence/SAT-X/same-device-recovery-verification.json and same-device-recovered-pin-login.log. This is same-device recovery evidence only.

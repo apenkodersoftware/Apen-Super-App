@@ -1,0 +1,22 @@
+{
+  "device": "emulator-5554",
+  "main_package": "com.apenkoder.apen.review",
+  "launcher_label": "Apen Super R3 Review",
+  "version_name": "0.3.0-super-review-r3",
+  "version_code": 3,
+  "installed_apk_sha256": "fb5827f14160d54b7f005b20cc42d0e9b67ee9291554db44987ce19f18f33cf3",
+  "installed_apk_bytes": 23331425,
+  "verification_package_removed": true,
+  "test_drivers_removed": true,
+  "remaining_apen_packages": [
+    "package:com.apenkoder.apen.review"
+  ],
+  "last_update_time_device": "2026-10-29 20:09:38",
+  "device_clock_at_handoff": "Thu Oct 29 20:58:44 EAT 2026",
+  "size": "Physical size: 720x1600",
+  "density": "Physical density: 240",
+  "font_scale": "1.0",
+  "main_data_cleared": false,
+  "handoff_screen": "Demo Dairy home in English",
+  "crash_buffer_review": "No entries during final 20:xx/21:xx native run; older system crash entries retained, not cleared."
+}

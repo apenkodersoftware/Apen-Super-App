@@ -1,0 +1,10 @@
+{
+  "device": "emulator-5554",
+  "package": "com.apenkoder.apen.review.r3verification",
+  "fixture": "1000 milk deliveries created through validated domain APIs in disposable demo business",
+  "records_after_activity_restart": 1000,
+  "history_scrolled_to_index": 900,
+  "instrumented_activity_launch_to_ready_ms": 8116,
+  "instrumented_process_pss_kb": 67946,
+  "physical_phone_test": false
+}

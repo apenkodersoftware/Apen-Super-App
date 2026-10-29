@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="super_no_trade_help">Weka alama kwa siku ambayo hakukuwa na shughuli ya biashara. Tarehe zisizo na uthibitisho huu wala kumbukumbu hubaki hazijulikani.</string>
+    <string name="super_other_money_help">Mtaji wa mwenye biashara, fedha za mkopo, ruzuku na uhamisho ni tofauti na mauzo na malipo ya biashara.</string>
+    <string name="super_recorded">Imerekodiwa</string>
+    <string name="super_top_sellers">Zinazouzwa zaidi kwa idadi</string>
+</resources>

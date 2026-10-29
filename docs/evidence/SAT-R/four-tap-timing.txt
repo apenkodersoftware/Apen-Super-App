@@ -1,0 +1,4 @@
+native_actions=4
+elapsed_ms=1005
+keyboard_actions=0
+includes_persistence=true

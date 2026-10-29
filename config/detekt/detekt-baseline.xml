@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>ComposableParamOrder:InventoryScreen.kt$MetricCard</ID>
+    <ID>CompositionLocalAllowlist:Color.kt$LocalStatusColors</ID>
+    <ID>ImplicitDefaultLocale:AnalyticsScreen.kt$String.format("%.0f", amount)</ID>
+    <ID>ImplicitDefaultLocale:AnalyticsScreen.kt$String.format("%.0f", estimatedNetProfit)</ID>
+    <ID>ImplicitDefaultLocale:AnalyticsScreen.kt$String.format("%.0f", pct * 100)</ID>
+    <ID>ImplicitDefaultLocale:AnalyticsScreen.kt$String.format("%.0f", totalExpenses)</ID>
+    <ID>ImplicitDefaultLocale:AnalyticsScreen.kt$String.format("%.0f", totalRevenue)</ID>
+    <ID>ImplicitDefaultLocale:AnalyticsScreen.kt$String.format("%.1f", profitMargin)</ID>
+    <ID>ImplicitDefaultLocale:CustomersScreen.kt$String.format("%.0f", customer.creditLimit)</ID>
+    <ID>ImplicitDefaultLocale:CustomersScreen.kt$String.format("%.0f", customer.totalSpent)</ID>
+    <ID>ImplicitDefaultLocale:CustomersScreen.kt$String.format("%.2f", customer.currentDebt)</ID>
+    <ID>ImplicitDefaultLocale:CustomersScreen.kt$String.format("%.2f", payment.amountPaid)</ID>
+    <ID>ImplicitDefaultLocale:CustomersScreen.kt$String.format("%.2f", totalDebts)</ID>
+    <ID>ImplicitDefaultLocale:ExpensesScreen.kt$String.format("%.2f", expense.amount)</ID>
+    <ID>ImplicitDefaultLocale:ExpensesScreen.kt$String.format("%.2f", totalExpenses)</ID>
+    <ID>ImplicitDefaultLocale:FasMovaPOSRepository.kt$FasMovaPOSRepository$String.format("%.2f", netTotal)</ID>
+    <ID>ImplicitDefaultLocale:FasMovaPOSViewModel.kt$FasMovaPOSViewModel$String.format("%.2f", amount)</ID>
+    <ID>ImplicitDefaultLocale:InventoryScreen.kt$String.format("%.0f", product.costPrice)</ID>
+    <ID>ImplicitDefaultLocale:InventoryScreen.kt$String.format("%.0f", product.sellingPrice)</ID>
+    <ID>ImplicitDefaultLocale:InventoryScreen.kt$String.format("%.0f", totalStockValuationCost)</ID>
+    <ID>ImplicitDefaultLocale:InventoryScreen.kt$String.format("%.0f", totalStockValuationRetail)</ID>
+    <ID>ImplicitDefaultLocale:POSScreen.kt$String.format("%.0f", c.currentDebt)</ID>
+    <ID>ImplicitDefaultLocale:POSScreen.kt$String.format("%.0f", item.product.sellingPrice * item.quantity)</ID>
+    <ID>ImplicitDefaultLocale:POSScreen.kt$String.format("%.0f", item.product.sellingPrice)</ID>
+    <ID>ImplicitDefaultLocale:POSScreen.kt$String.format("%.0f", product.sellingPrice)</ID>
+    <ID>ImplicitDefaultLocale:POSScreen.kt$String.format("%.2f", grossTotal)</ID>
+    <ID>ImplicitDefaultLocale:POSScreen.kt$String.format("%.2f", netTotal)</ID>
+    <ID>ImplicitDefaultLocale:POSScreen.kt$String.format("%.2f", tax)</ID>
+    <ID>ImplicitDefaultLocale:ReceiptModal.kt$String.format("%.0f", item.totalPrice)</ID>
+    <ID>ImplicitDefaultLocale:ReceiptModal.kt$String.format("%.0f", item.unitPrice)</ID>
+    <ID>ImplicitDefaultLocale:ReceiptModal.kt$String.format("%.2f", sale.discountAmount)</ID>
+    <ID>ImplicitDefaultLocale:ReceiptModal.kt$String.format("%.2f", sale.netAmount)</ID>
+    <ID>ImplicitDefaultLocale:ReceiptModal.kt$String.format("%.2f", sale.taxAmount)</ID>
+    <ID>ImplicitDefaultLocale:ReceiptModal.kt$String.format("%.2f", sale.totalAmount)</ID>
+    <ID>ImplicitDefaultLocale:SalesHistoryScreen.kt$String.format("%.2f", sale.netAmount)</ID>
+    <ID>ImplicitDefaultLocale:SalesHistoryScreen.kt$String.format("%.2f", totalVolume)</ID>
+    <ID>ImplicitDefaultLocale:SuppliersScreen.kt$String.format("%.2f", po.totalAmount)</ID>
+    <ID>ImplicitDefaultLocale:SuppliersScreen.kt$String.format("%.2f", supplier.balanceOwed)</ID>
+    <ID>LongMethod:ReceiptModal.kt$@Composable fun ReceiptModal( sale: SaleEntity?, items: List&lt;SaleItemEntity&gt;, payments: List&lt;SalePaymentEntity&gt;, branch: BranchEntity, onDismiss: () -&gt; Unit, onPrint: () -&gt; Unit, onShare: () -&gt; Unit, )</ID>
+    <ID>LongParameterList:POSScreen.kt$( products: List&lt;ProductEntity&gt;, searchQuery: String, categoryFilter: String, cart: List&lt;CartItem&gt;, discount: Double, payment: PaymentState, selectedCustomer: CustomerEntity?, customers: List&lt;CustomerEntity&gt;, onSearchChange: (String) -&gt; Unit, onCategoryChange: (String) -&gt; Unit, onAddToCart: (ProductEntity) -&gt; Unit, onUpdateCartQty: (String, Int) -&gt; Unit, onRemoveFromCart: (String) -&gt; Unit, onClearCart: () -&gt; Unit, onUpdatePayment: ((PaymentState) -&gt; PaymentState) -&gt; Unit, onSelectCustomer: (CustomerEntity?) -&gt; Unit, onCheckout: () -&gt; Unit, isCheckingOut: Boolean = false, )</ID>
+    <ID>ModifierMissing:AnalyticsScreen.kt$AnalyticsScreen</ID>
+    <ID>ModifierMissing:CustomersScreen.kt$CustomersScreen</ID>
+    <ID>ModifierMissing:ExpensesScreen.kt$ExpensesScreen</ID>
+    <ID>ModifierMissing:FasMovaPOSNavBar.kt$FasMovaPOSNavBar</ID>
+    <ID>ModifierMissing:FasMovaPOSTopBar.kt$FasMovaPOSTopBar</ID>
+    <ID>ModifierMissing:InventoryScreen.kt$InventoryScreen</ID>
+    <ID>ModifierMissing:LoginScreen.kt$LoginScreen</ID>
+    <ID>ModifierMissing:POSScreen.kt$POSScreen</ID>
+    <ID>ModifierMissing:SalesHistoryScreen.kt$SalesHistoryScreen</ID>
+    <ID>ModifierMissing:StaffScreen.kt$StaffScreen</ID>
+    <ID>ModifierMissing:SuppliersScreen.kt$SuppliersScreen</ID>
+    <ID>ModifierMissing:SyncEngineScreen.kt$SyncEngineScreen</ID>
+    <ID>ParameterNaming:FasMovaPOSNavBar.kt$onTabSelected</ID>
+    <ID>ParameterNaming:FasMovaPOSTopBar.kt$onBranchSelected</ID>
+    <ID>TooManyFunctions:FasMovaPOSViewModel.kt$FasMovaPOSViewModel : AndroidViewModel</ID>
+    <ID>UnstableCollections:AnalyticsScreen.kt$List&lt;ExpenseEntity&gt;</ID>
+    <ID>UnstableCollections:AnalyticsScreen.kt$List&lt;ProductEntity&gt;</ID>
+    <ID>UnstableCollections:AnalyticsScreen.kt$List&lt;SaleEntity&gt;</ID>
+    <ID>UnstableCollections:AnalyticsScreen.kt$List&lt;SalePaymentEntity&gt;</ID>
+    <ID>UnstableCollections:CustomersScreen.kt$List&lt;CustomerEntity&gt;</ID>
+    <ID>UnstableCollections:CustomersScreen.kt$List&lt;CustomerPaymentEntity&gt;</ID>
+    <ID>UnstableCollections:ExpensesScreen.kt$List&lt;ExpenseEntity&gt;</ID>
+    <ID>UnstableCollections:FasMovaPOSTopBar.kt$List&lt;BranchEntity&gt;</ID>
+    <ID>UnstableCollections:InventoryScreen.kt$List&lt;ProductEntity&gt;</ID>
+    <ID>UnstableCollections:POSScreen.kt$List&lt;CartItem&gt;</ID>
+    <ID>UnstableCollections:POSScreen.kt$List&lt;CustomerEntity&gt;</ID>
+    <ID>UnstableCollections:POSScreen.kt$List&lt;ProductEntity&gt;</ID>
+    <ID>UnstableCollections:PaymentText.kt$List&lt;String&gt;</ID>
+    <ID>UnstableCollections:ReceiptModal.kt$List&lt;SaleItemEntity&gt;</ID>
+    <ID>UnstableCollections:ReceiptModal.kt$List&lt;SalePaymentEntity&gt;</ID>
+    <ID>UnstableCollections:SalesHistoryScreen.kt$List&lt;SaleEntity&gt;</ID>
+    <ID>UnstableCollections:SalesHistoryScreen.kt$List&lt;SalePaymentEntity&gt;</ID>
+    <ID>UnstableCollections:StaffScreen.kt$List&lt;StaffUserEntity&gt;</ID>
+    <ID>UnstableCollections:SuppliersScreen.kt$List&lt;PurchaseOrderEntity&gt;</ID>
+    <ID>UnstableCollections:SuppliersScreen.kt$List&lt;SupplierEntity&gt;</ID>
+    <ID>UnstableCollections:SyncEngineScreen.kt$List&lt;SyncQueueEntity&gt;</ID>
+    <ID>UnusedParameter:AnalyticsScreen.kt$products: List&lt;ProductEntity&gt;</ID>
+    <ID>UnusedPrivateProperty:ExpensesScreen.kt$val categories = listOf("Rent", "Wages", "Utilities", "Transport", "Stock Freight", "Taxes", "Miscellaneous")</ID>
+    <ID>ViewModelForwarding:MainActivity.kt$FasMovaPOSMainShell(viewModel = viewModel, displayControl = displayControl)</ID>
+  </CurrentIssues>
+</SmellBaseline>

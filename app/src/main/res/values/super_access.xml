@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="super_owner_only">This review build is for the business owner. Sign in with the owner PIN to manage these businesses.</string>
+</resources>

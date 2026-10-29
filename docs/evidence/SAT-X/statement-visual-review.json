@@ -1,0 +1,12 @@
+{
+  "all_pages_reviewed": true,
+  "pages": [
+    "render-DAIRY-1.png",
+    "render-RENTAL-1.png",
+    "render-RESTAURANT-1.png",
+    "render-RETAIL-1.png"
+  ],
+  "readable": true,
+  "clipping_or_overlap_found": false,
+  "review_scope": "Every rendered page of all four native-exported example PDFs"
+}

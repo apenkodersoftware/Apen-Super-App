@@ -1,0 +1,32 @@
+{
+  "tests": "5",
+  "failures": [
+    {
+      "test": "satS_retailPartPaymentAndCollectionNeverDuplicateSale",
+      "type": "java.lang.UnsupportedOperationException",
+      "message": "java.lang.UnsupportedOperationException: Super App slice not implemented"
+    },
+    {
+      "test": "satL_monthlyChargesVacancyAndOldestArrearsAllocation",
+      "type": "java.lang.UnsupportedOperationException",
+      "message": "java.lang.UnsupportedOperationException: Super App slice not implemented"
+    },
+    {
+      "test": "satD_dairy42LitresPaymentDeductionExpenseAndCorrection",
+      "type": "java.lang.UnsupportedOperationException",
+      "message": "java.lang.UnsupportedOperationException: Super App slice not implemented"
+    },
+    {
+      "test": "satR_menuSalesTabShoppingAndNextDayCollection",
+      "type": "java.lang.UnsupportedOperationException",
+      "message": "java.lang.UnsupportedOperationException: Super App slice not implemented"
+    },
+    {
+      "test": "satX_businessPartitionAndNonSalesMoney",
+      "type": "java.lang.UnsupportedOperationException",
+      "message": "java.lang.UnsupportedOperationException: Super App slice not implemented"
+    }
+  ],
+  "errors": "0",
+  "skipped": "0"
+}

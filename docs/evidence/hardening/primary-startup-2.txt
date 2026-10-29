@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.apenkoder.apen.review/com.aistudio.fasmovapos.app.MainActivity }
+Status: ok
+Activity: com.apenkoder.apen.review/com.aistudio.fasmovapos.app.MainActivity
+ThisTime: 2834
+TotalTime: 2834
+WaitTime: 2876
+Complete

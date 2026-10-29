@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="super_quarter_price">Bei ya robo (0 hutumia bei ya kipimo)</string>
+    <string name="super_half_price">Bei ya nusu (0 hutumia bei ya kipimo)</string>
+    <string name="super_tier_price_help">Bei za robo na nusu hutumika kwa kilo au lita 0.25 na 0.5 pekee. Bei ya kununua huhifadhiwa kwa kumbukumbu za bidhaa; si hesabu ya gharama ya bidhaa zilizouzwa.</string>
+    <string name="super_option_box">Boksi</string>
+    <string name="super_option_bag">Gunia</string>
+    <string name="super_discount">Punguzo (KES)</string>
+    <string name="super_checkout">Chaguo za malipo</string>
+    <string name="super_no_customer">Hakuna deni la mteja</string>
+</resources>

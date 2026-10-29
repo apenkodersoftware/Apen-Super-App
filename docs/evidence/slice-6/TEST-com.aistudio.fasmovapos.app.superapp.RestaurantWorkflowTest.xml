@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aistudio.fasmovapos.app.superapp.RestaurantWorkflowTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-29T08:53:44.461Z" hostname="APENKODERSOFTWA" time="0.316">
+  <properties/>
+  <testcase name="menuCorrectionsArchiveAndBoundedPhotoPreserveHistoryAndSales" classname="com.aistudio.fasmovapos.app.superapp.RestaurantWorkflowTest" time="0.308"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

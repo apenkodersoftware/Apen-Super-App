@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FasMovaPOS" parent="android:Theme.DeviceDefault.Light.NoActionBar" />
+
+    <style name="Theme.FasMovaPOS.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0A1628</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/apenkoder_mark</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.FasMovaPOS</item>
+    </style>
+</resources>

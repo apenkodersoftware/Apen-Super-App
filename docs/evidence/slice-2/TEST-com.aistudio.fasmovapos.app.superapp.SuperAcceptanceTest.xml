@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aistudio.fasmovapos.app.superapp.SuperAcceptanceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-29T04:46:21.617Z" hostname="APENKODERSOFTWA" time="104.643">
+  <properties/>
+  <testcase name="satS_retailPartPaymentAndCollectionNeverDuplicateSale" classname="com.aistudio.fasmovapos.app.superapp.SuperAcceptanceTest" time="95.027"/>
+  <testcase name="satD_dairy42LitresPaymentDeductionExpenseAndCorrection" classname="com.aistudio.fasmovapos.app.superapp.SuperAcceptanceTest" time="2.028"/>
+  <testcase name="satX_businessPartitionAndNonSalesMoney" classname="com.aistudio.fasmovapos.app.superapp.SuperAcceptanceTest" time="0.496"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

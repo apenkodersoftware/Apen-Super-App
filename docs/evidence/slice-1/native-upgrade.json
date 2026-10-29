@@ -1,0 +1,77 @@
+{
+  "schema": 7,
+  "integrity": "ok",
+  "original_table_checks": {
+    "products": {
+      "rows": 25,
+      "identical": true
+    },
+    "sales": {
+      "rows": 1,
+      "identical": true
+    },
+    "sale_items": {
+      "rows": 1,
+      "identical": true
+    },
+    "sale_payments": {
+      "rows": 0,
+      "identical": true
+    },
+    "suppliers": {
+      "rows": 1,
+      "identical": true
+    },
+    "purchase_orders": {
+      "rows": 0,
+      "identical": true
+    },
+    "expenses": {
+      "rows": 0,
+      "identical": true
+    },
+    "customers": {
+      "rows": 1,
+      "identical": true
+    },
+    "customer_payments": {
+      "rows": 0,
+      "identical": true
+    },
+    "branches": {
+      "rows": 1,
+      "identical": true
+    },
+    "staff_users": {
+      "rows": 3,
+      "identical": true
+    },
+    "sync_queue": {
+      "rows": 0,
+      "identical": true
+    },
+    "recording_events": {
+      "rows": 1,
+      "identical": true
+    },
+    "personal_loan_plans": {
+      "rows": 1,
+      "identical": true
+    },
+    "recording_meta": {
+      "rows": 1,
+      "identical": true
+    },
+    "recorded_days": {
+      "rows": 0,
+      "identical": true
+    },
+    "record_origins": {
+      "rows": 29,
+      "identical": true
+    }
+  },
+  "apk_sha256": "812568be76d897ebdc4dfaa4437900b0633d486455bda9565fdb04e184130215",
+  "apk_bytes": 23079875,
+  "installed_bytes_match": true
+}

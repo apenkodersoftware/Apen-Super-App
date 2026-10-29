@@ -1,0 +1,68 @@
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.aistudio.fasmovapos.app.SuperRentalDeviceTest:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=satL_nativeUnitsRentVacancyOldestArrearsAndShareChooser
+INSTRUMENTATION_STATUS: class=com.aistudio.fasmovapos.app.SuperRentalDeviceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+Error in satL_nativeUnitsRentVacancyOldestArrearsAndShareChooser(com.aistudio.fasmovapos.app.SuperRentalDeviceTest):
+java.lang.AssertionError: Failed to assert the following: (Text + EditableText contains 'A2' (ignoreCase: false))
+Semantics of the node:
+Node #1139 at (l=36.0, t=108.0, r=624.0, b=213.0)px, Tag: 'share-preview-text'
+Text = '[Rent reminder: Demo Court, unit A2. Outstanding balance: KES 8,000. Please contact the owner about payment.]'
+Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+Has 1 sibling
+Selector used: (TestTag = 'share-preview-text')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:265)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:255)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains(Assertions.kt:209)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains$default(Assertions.kt:204)
+	at com.aistudio.fasmovapos.app.SuperRentalDeviceTest.satL_nativeUnitsRentVacancyOldestArrearsAndShareChooser(SuperRentalDeviceTest.kt:123)
+
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=satL_nativeUnitsRentVacancyOldestArrearsAndShareChooser
+INSTRUMENTATION_STATUS: class=com.aistudio.fasmovapos.app.SuperRentalDeviceTest
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Failed to assert the following: (Text + EditableText contains 'A2' (ignoreCase: false))
+Semantics of the node:
+Node #1139 at (l=36.0, t=108.0, r=624.0, b=213.0)px, Tag: 'share-preview-text'
+Text = '[Rent reminder: Demo Court, unit A2. Outstanding balance: KES 8,000. Please contact the owner about payment.]'
+Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+Has 1 sibling
+Selector used: (TestTag = 'share-preview-text')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:265)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:255)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains(Assertions.kt:209)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains$default(Assertions.kt:204)
+	at com.aistudio.fasmovapos.app.SuperRentalDeviceTest.satL_nativeUnitsRentVacancyOldestArrearsAndShareChooser(SuperRentalDeviceTest.kt:123)
+
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 71.143
+There was 1 failure:
+1) satL_nativeUnitsRentVacancyOldestArrearsAndShareChooser(com.aistudio.fasmovapos.app.SuperRentalDeviceTest)
+java.lang.AssertionError: Failed to assert the following: (Text + EditableText contains 'A2' (ignoreCase: false))
+Semantics of the node:
+Node #1139 at (l=36.0, t=108.0, r=624.0, b=213.0)px, Tag: 'share-preview-text'
+Text = '[Rent reminder: Demo Court, unit A2. Outstanding balance: KES 8,000. Please contact the owner about payment.]'
+Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+Has 1 sibling
+Selector used: (TestTag = 'share-preview-text')
+
+	at androidx.compose.ui.test.AssertionsKt.assert(Assertions.kt:265)
+	at androidx.compose.ui.test.AssertionsKt.assert$default(Assertions.kt:255)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains(Assertions.kt:209)
+	at androidx.compose.ui.test.AssertionsKt.assertTextContains$default(Assertions.kt:204)
+	at com.aistudio.fasmovapos.app.SuperRentalDeviceTest.satL_nativeUnitsRentVacancyOldestArrearsAndShareChooser(SuperRentalDeviceTest.kt:123)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

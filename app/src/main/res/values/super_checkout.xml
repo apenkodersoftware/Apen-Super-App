@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="super_full_if_blank">Leave Received now blank to record full payment of the net total. For a part payment, enter what you actually received.</string>
+  <string name="super_customer_from_deni">For an unpaid balance, choose the customer. Add new customers in the Deni tab before starting an order.</string>
+  <string name="super_net_total">Net total after discount</string>
+</resources>

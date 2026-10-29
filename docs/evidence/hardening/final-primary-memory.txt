@@ -1,0 +1,53 @@
+Applications Memory Usage (in Kilobytes):
+Uptime: 151276096 Realtime: 151276097
+
+** MEMINFO in pid 31631 [com.apenkoder.apen.review] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     4811     4704        0        0    18432    16256     2175
+  Dalvik Heap    11372    11284        0        0    11554     7459     4095
+ Dalvik Other     3394     3392        0        0                           
+        Stack      688      688        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap      947      112        4        0                           
+    .apk mmap      388        0       44        0                           
+    .ttf mmap       60        0       12        0                           
+    .dex mmap    16664        4    16660        0                           
+    .oat mmap     1247        0       36        0                           
+    .art mmap     1297      752        0        0                           
+   Other mmap      104        8       40        0                           
+      Unknown     2654     2652        0        0                           
+        TOTAL    43632    23596    16800        0    29986    23715     6270
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    12036
+         Native Heap:     4704
+                Code:    16872
+               Stack:      688
+            Graphics:        0
+       Private Other:     6096
+              System:     3236
+ 
+               TOTAL:    43632       TOTAL SWAP PSS:        0
+ 
+ Objects
+               Views:        7         ViewRootImpl:        1
+         AppContexts:        4           Activities:        1
+              Assets:        2        AssetManagers:        3
+       Local Binders:       15        Proxy Binders:       16
+       Parcel memory:        6         Parcel count:       24
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:     1206
+  PAGECACHE_OVERFLOW:      417          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      464            473      99/110/24  /data/user/0/com.apenkoder.apen.review/databases/fasmovalite_database
+         1        5                         0/0/0    (attached) temp
+         4      464             73         7/60/6  /data/user/0/com.apenkoder.apen.review/databases/fasmovalite_database (1)

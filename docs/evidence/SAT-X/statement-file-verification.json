@@ -1,0 +1,62 @@
+[
+  {
+    "type": "DAIRY",
+    "report_id": "4f796042-a2b0-4c60-aaf9-f9d89e213108",
+    "csv_sha256": "8dfcdb44af0b017ef4f3e80b124f02af19c6e4fac638d713e751a129f578ab7a",
+    "pdf_sha256": "abf6c4259243d59c15e03212f596eb655c9fdddbedada1fbf000db2b7e21306a",
+    "pages": 1,
+    "same_41_field_schema": true,
+    "native_preview_snapshot_matches": true,
+    "independent_source_ledger_figures_match": true,
+    "coverage_matches_source": true,
+    "pdf_contains_same_report_id_digest_and_figures": true,
+    "text_within_page_margins": true,
+    "privacy_allowlist_only": true,
+    "rendered_all_pages": true
+  },
+  {
+    "type": "RENTAL",
+    "report_id": "f5752fb6-6985-4ab6-9b0d-c747e8983fbb",
+    "csv_sha256": "e90612142fbd731478fac9ac2eca3f2940e265bbd8670fe7bef7307916d7f3a2",
+    "pdf_sha256": "c69d22fbaa0f1088caf9c1a891fb8e564eb8cfe46e99d19be98187e12c3d603b",
+    "pages": 1,
+    "same_41_field_schema": true,
+    "native_preview_snapshot_matches": true,
+    "independent_source_ledger_figures_match": true,
+    "coverage_matches_source": true,
+    "pdf_contains_same_report_id_digest_and_figures": true,
+    "text_within_page_margins": true,
+    "privacy_allowlist_only": true,
+    "rendered_all_pages": true
+  },
+  {
+    "type": "RESTAURANT",
+    "report_id": "666ff06d-72f9-4c42-8591-dc007387c2e0",
+    "csv_sha256": "e218b73f1b6df63fe8d37bd83541680674f7949bc55660a7470207bea92fb17f",
+    "pdf_sha256": "186bcd5b90c13a03d4637bc4066a37f066336442ff03094057279eb4e9427a6a",
+    "pages": 1,
+    "same_41_field_schema": true,
+    "native_preview_snapshot_matches": true,
+    "independent_source_ledger_figures_match": true,
+    "coverage_matches_source": true,
+    "pdf_contains_same_report_id_digest_and_figures": true,
+    "text_within_page_margins": true,
+    "privacy_allowlist_only": true,
+    "rendered_all_pages": true
+  },
+  {
+    "type": "RETAIL",
+    "report_id": "b469699d-0608-4717-b77b-b472ec960e68",
+    "csv_sha256": "e3d4c2500dab0e0f3f7bff524c1a15b15a305bbf2de06b04165581da14fb4eac",
+    "pdf_sha256": "a1f0b8ee61b61f5bfe43a3dab3fa7904d321fc39fa9b60ca0ab21309b04939eb",
+    "pages": 1,
+    "same_41_field_schema": true,
+    "native_preview_snapshot_matches": true,
+    "independent_source_ledger_figures_match": true,
+    "coverage_matches_source": true,
+    "pdf_contains_same_report_id_digest_and_figures": true,
+    "text_within_page_margins": true,
+    "privacy_allowlist_only": true,
+    "rendered_all_pages": true
+  }
+]

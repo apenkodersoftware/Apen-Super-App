@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="super_period_from">From</string>
+  <string name="super_period_through">Through</string>
+  <string name="super_custom_dates">Choose dates</string>
+  <string name="super_per_property">By property</string>
+  <string name="super_arrears_age">Unpaid rent by age</string>
+  <string name="super_owed_as_now">Owed now, all saved records</string>
+  <string name="super_owed_as_now_help">This is the balance of all entries currently saved, including entries outside the selected dates. It is not an Inuka balance.</string>
+  <string name="super_average_recorded_day">Average per recorded delivery day</string>
+  <string name="super_average_day_help">Days without delivery records are unknown and are excluded from this average.</string>
+  <string name="super_rental_difference_help">Collected rent less recorded expenses. Deposits and unpaid rent are excluded; this is not profit or a cash balance.</string>
+  <string name="super_coverage_help">This shows recording coverage, not proof that every transaction was entered. Missing days are unknown, not zero.</string>
+  <string name="super_unknown_entry_times">Entries with unknown recording time</string>
+  <string name="super_equal_period">Compared with an equally long completed period</string>
+  <string name="super_sales_change">Change in recorded sales or earned amount</string>
+  <string name="super_months">months</string>
+  <string name="super_late">Late</string>
+  <string name="super_due">Due / upcoming</string>
+  <string name="super_history_help">Original values and entry times are kept. Every correction or void needs a reason; a void does not erase the record.</string>
+  <string name="super_record_id">Record reference</string>
+  <string name="super_recorded_on">Entered</string>
+  <string name="super_stock_used_sale">Stock used for a recorded sale</string>
+  <string name="super_initial_details">Initial details</string>
+  <string name="super_voided">Voided</string>
+  <string name="super_linked_cost_help">This cost came from a buyer deduction. Void the linked payment to reverse it.</string>
+  <string name="super_void_sale_help">This receipt belongs to a fully paid sale. Void the sale to reverse both records together.</string>
+  <string name="super_void_help">A void reverses the recorded totals and keeps the original record and reason. Linked payments may need to be corrected first.</string>
+  <string name="super_unpaid_through_month">Unpaid through selected month</string>
+  <string name="super_rent_home_help">Collected of expected means payments applied to the selected month. Summary shows money received within chosen dates.</string>
+  <string name="super_period_future">This period includes dates after today. Figures show saved entries, not a forecast.</string>
+  <string name="super_milk_correction_help">Correct litres here. To change buyer, date or price, void the delivery in History and enter its replacement.</string>
+</resources>

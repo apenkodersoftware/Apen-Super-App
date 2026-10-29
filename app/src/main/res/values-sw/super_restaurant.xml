@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="super_choose_photo">Chagua picha (si lazima)</string>
+    <string name="super_remove_photo">Ondoa picha</string>
+    <string name="super_photo_error">Chagua picha inayosomeka. Nakala ndogo huhifadhiwa pamoja na kumbukumbu zako.</string>
+    <string name="super_archive_menu">Imehifadhiwa: isionekane wakati wa kuuza</string>
+    <string name="super_active_menu">Onyesha menyu inayotumika</string>
+    <string name="super_archived_menu">Onyesha menyu iliyohifadhiwa</string>
+</resources>
+
